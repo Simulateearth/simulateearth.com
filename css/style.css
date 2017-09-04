@@ -837,6 +837,77 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* ==================================================
+  Spreadsheet Section
+  ================================================== */
+
+  #spreadsheet {
+    background: #f7f7f7;
+    padding: 80px 0;
+  }
+  
+  #spreadsheet h2 {
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    color: #199EB8;
+  }
+  
+  #spreadsheet .info i {
+    font-size: 32px;
+    color: #199EB8;
+    float: left;
+  }
+  
+  #spreadsheet .info p {
+    padding: 0 0 10px 50px;
+    line-height: 24px;
+  }
+  
+  #spreadsheet .form #sendmessage {
+    color: #199EB8;
+    border: 1px solid #199EB8;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  #spreadsheet .form #errormessage {
+    color: red;
+    display: none;
+    border: 1px solid red;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  #spreadsheet .form #sendmessage.show, #spreadsheet .form #errormessage.show, #spreadsheet .form .show {
+    display: block;
+  }
+  
+  #spreadsheet .form .validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  #spreadsheet .form input, #spreadsheet .form textarea {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  #spreadsheet iframe {
+    border-radius: 0;
+    width: 1200px;
+    height: 1000px;
+    border: 3px solid #000;
+    text-align: center;
+  }
+
+/* ==================================================
   Footer Styling
   ================================================== */
 .site-footer {
